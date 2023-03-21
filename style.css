@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+body {
+  background-image: url(./assets/background-image.png);
+  background-repeat: no-repeat;
+  background-color: #121725;
+  background-size: 100%;
+  background-size: cover;
+  justify-content: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  margin-top: 62px;
+}
+.main {
+  justify-content: center;
+  align-items: center;
+}
+.text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+h1 {
+  margin-top: 57px;
+  font-family: Chivo;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: center;
+  color: #54e6af;
+}
+span {
+  font-family: Chivo;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+}
+.text {
+  font-family: Chivo;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 16px;
+  color: #c2cbe5;
+}
+.icons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 23px;
+  margin-top: 38px;
+}
+.spotify {
+  height: 17px;
+  width: 56px;
+}
+.apple {
+  height: 17px;
+  width: 56px;
+}
+.google-podcast {
+  height: 11px;
+  width: 73px;
+}
+.pocket-casts {
+  height: 15px;
+  width: 77px;
+}
+.email-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 48px;
+  align-items: center;
+}
+input {
+  height: 46px;
+  width: 327px;
+  background: #2c344b;
+  border-radius: 28px;
+  border: none;
+}
+::placeholder {
+  font-family: Chivo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-left: 32px;
+}
+button {
+  border-radius: 28px;
+  background: #54e6af;
+  color: #121725;
+  text-align: center;
+  font-family: Chivo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  border: none;
+  height: 46px;
+  width: 327px;
+}
+button:hover {
+  background: #b3ffe2;
+  cursor: pointer;
+}
+.combined-shape {
+  display: none;
+}
+.warning {
+  display: none;
+}
+.done{
+  display: none;
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    background-image: url(./assets/tablet/image-host.jpg);
+    background-size: 491px 767px;
+    background-position: top right;
+  }
+  header {
+    display: flex;
+    justify-content: left;
+  }
+  .logo {
+    margin-left: 39px;
+    margin-top: 50px;
+  }
+  .main {
+    background-color: #121725;
+    height: 509px;
+    width: 635px;
+    margin-left: 39px;
+    margin-top: 145px;
+    justify-content: left;
+  }
+  .text-div {
+    align-items: flex-start;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+  }
+  span {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 28px;
+    width: 445px;
+    text-align: left;
+  }
+  .icons {
+    gap: 55px;
+    margin-top: 40px;
+    justify-content: left;
+  }
+  .spotify {
+    height: 28px;
+    width: 95px;
+  }
+  .apple {
+    height: 29px;
+    width: 78px;
+  }
+  .google-podcast {
+    height: 18px;
+    width: 125px;
+  }
+  .pocket-casts {
+    height: 26px;
+    width: 129px;
+  }
+  .combined-shape {
+    display: inline;
+    margin-bottom: -280px;
+    margin-left: 39px;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .email-div {
+    flex-direction: row;
+  }
+  input {
+    height: 56px;
+    width: 427px;
+  }
+  button {
+    height: 46px;
+    width: 162px;
+    margin-left: -183px;
+  }
+  
+}
+@media screen and (min-width: 1020px) {
+  body {
+    background-image: url(./assets/desktop/image-host.jpg);
+    background-size: 962px 640px;
+    background-position: center right;
+  }
+  .logo {
+    margin-bottom: -50px;
+  }
+  .main {
+    margin-top: 155px;
+    width: 723px;
+  }
+  .text-div {
+    gap: unset;
+  }
+  h1 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  span {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .icons {
+    gap: 55px;
+    margin-top: 20px;
+  }
+  .spotify {
+    height: 28px;
+    width: 95px;
+  }
+  .apple {
+    height: 29px;
+    width: 78px;
+  }
+  .google-podcast {
+    height: 18px;
+    width: 125px;
+  }
+  .pocket-casts {
+    height: 26px;
+    width: 129px;
+  }
+  .combined-shape {
+    position: absolute;
+    left: 975px;
+    top: 93%;
+  }
+  .email-div {
+    margin-top: 20px;
+  }
+  .reverse {
+    gap: 20px;
+  }
+  .warning {
+    font-family: Chivo;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #fb3e3e;
+    margin-left: 35px;
+    margin-top: -8px;
+  }
+}
