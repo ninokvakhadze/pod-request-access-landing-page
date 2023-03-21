@@ -120,11 +120,15 @@ button:hover {
 }
 .warning {
   display: none;
+  font-family: Chivo;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #fb3e3e;
+  margin-left: 35px;
+  margin-top: -8px;
 }
-.done{
-  display: none;
-}
-
 @media screen and (min-width: 720px) {
   body {
     background-image: url(./assets/tablet/image-host.jpg);
